@@ -8,13 +8,16 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(length = 50)
     private String nombre;
 
+    @Column(length = 50)
     private String apellido;
 
-    @Column(unique = true, nullable = false)
+    @Column(unique = true, nullable = false, length = 100)
     private String email;
 
+    @Column(length = 20)
     private String telefono;
 
     public Long getId() {

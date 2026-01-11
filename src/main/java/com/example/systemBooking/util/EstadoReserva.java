@@ -1,4 +1,7 @@
 package com.example.systemBooking.util;
 
-public class EstadoReserva {
+public enum EstadoReserva {
+    PENDIENTE,
+    CONFIRMADA,
+    CANCELADA
 }
