@@ -18,7 +18,7 @@ API RESTful desarrollada con **Spring Boot 3** para la gestión integral de rese
 * **Arquitectura:** Diseño escalable basado en capas (Controller, Service, Repository y Entity).
 
 ## Diagrama de Entidad-Relación de las entidades
-![Diagrama Entidad-Relación.](https://imgur.com/a/PfDDANh)
+![Diagrama Entidad-Relación](https://imgur.com/a/PfDDANh)
 
 ## Configuración y Ejecución
 
